@@ -47,6 +47,39 @@ body, html{
 	background-color: #fff;
 }
 
+.imagen-mesa{
+	width: 90%;
+}
+
+#mesa-directiva{
+
+}
+
+#puestos{
+	padding: 1rem;
+}
+
+#vicepresidente{
+	padding: 1rem 0rem 1.5rem 0rem;
+}
+
+#nombres{
+	padding: 0;
+}
+
+.lista{
+	list-style: initial;
+}
+
+.footer{
+    margin-top: 1rem;
+}
+
+#logo-footer{
+	width: 100%;
+	height: 100%;
+}
+
 @media (min-width: 576px) {
 
 }
