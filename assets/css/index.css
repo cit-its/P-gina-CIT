@@ -1,100 +1,96 @@
-body, html{
-	font-family: 'Roboto', sans-serif;
-	height: 100%;
-	margin: 0;
-	width: 100%;
+body,
+html {
+  font-family: "Roboto", sans-serif;
+  height: 100%;
+  margin: 0;
+  width: 100%;
 }
 
-.gris{
-	color: #444444;
+.gris {
+  color: #444444;
 }
 
-.guindo{
-	color: #87181f;
+.guindo {
+  color: #87181f;
 }
 
-.cyan{
-	color: #00adf7;
+.cyan {
+  color: #00adf7;
 }
 
-.blanco{
-	color: #fff;
+.blanco {
+  color: #fff;
 }
 
-.azul{
-	color: #1793f3;
+.azul {
+  color: #1793f3;
 }
 
-#nav-principal{
-	padding-left: 0;
-	padding-right: 0;
+#nav-principal {
+  padding-left: 0;
+  padding-right: 0;
 }
 
-#logo{
-	width: 100%;
-	height: 100%;
+#logo {
+  width: 100%;
+  height: 100%;
 }
 
-.titulo{
-	margin: 0;
+.titulo {
+  margin: 0;
 }
 
-#titulo{
-	font-size: 1em;
+#titulo {
+  font-size: 1em;
 }
 
-#mision{
-	background-color: #fff;
+#mision {
+  background-color: #fff;
 }
 
-.imagen-mesa{
-	width: 90%;
+.imagen-mesa {
+  width: 90%;
 }
 
-#mesa-directiva{
-
+#mesa-directiva {
 }
 
-#puestos{
-	padding: 1rem;
+#puestos {
+  padding: 1rem;
 }
 
-#vicepresidente{
-	padding: 1rem 0rem 1.5rem 0rem;
+#vicepresidente {
+  padding: 1rem 0rem 1.5rem 0rem;
 }
 
-#nombres{
-	padding: 0;
+#nombres {
+  padding: 0;
 }
 
-.lista{
-	list-style: initial;
+.lista {
+  list-style: initial;
 }
 
-.footer{
-    margin-top: 1rem;
+.footer {
+  margin-top: 1rem;
 }
 
-#logo-footer{
-	width: 100%;
-	height: 100%;
+#logo-footer {
+  width: 100%;
+  height: 100%;
 }
 
 @media (min-width: 576px) {
-
 }
 
-// Medium devices (tablets, 768px and up)
+/* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-
 }
 
-// Large devices (desktops, 992px and up)
+/* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-
 }
 
-// Extra large devices (large desktops, 1200px and up)
+/* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-
 }
