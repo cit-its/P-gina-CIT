@@ -42,7 +42,7 @@
           <p class="titulo guindo text-left" id="titulo">Innovación Tecnológica</p>
         </div>
         <!--Collapsable navbar -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation" id="boton-menu">
           <span class="navbar-toggler-icon"></span>
         </button>
       </nav>
@@ -83,16 +83,16 @@
         <div class="col-12">
           <p class="azul text-center tam-titulos">¿Qué nos representa?</p>
         </div>
-        <div class="col-6 tam-letra-1">
-          <ol class="gris lista">
+        <div class="col-6 tam-letra-1" id="lista-representa">
+          <ol class="gris lista" id="representa">
             <li>Humildad</li>
             <li>Pasión</li>
             <li>Comunicación</li>
             <li>Liderazgo</li>
           </ol>
         </div>
-        <div class="col-6 tam-letra-1">
-          <ol class="gris lista">
+        <div class="col-6 tam-letra-1" id="lista-representa">
+          <ol class="gris lista" id="representa">
             <li>Respeto</li>
             <li>Compromiso</li>
             <li>Identidad</li>
@@ -104,7 +104,7 @@
     <div class="container-fluid">
       <div class="row" id="mesa-directiva">
         <!-- Presidente -->
-        <div class="col-6">
+        <div class="col-6" id="mesa-cards">
           <div class="card">
             <div class="card-body puestos">
               <p class="guindo card-text text-center">Presidente</p>
@@ -116,7 +116,7 @@
           </div>
         </div>
         <!-- Vicepresidente -->
-        <div class="col-6">
+        <div class="col-6" id="mesa-cards">
           <div class="card">
             <div class="card-body puestos" id="vicepresidente">
               <p class="guindo card-text text-center">Vicepresidente</p>
@@ -128,7 +128,7 @@
           </div>
         </div>
         <!-- Secretario -->
-        <div class="col-6">
+        <div class="col-6" id="mesa-cards">
           <div class="card">
             <div class="card-body puestos">
               <p class="guindo card-text text-center">Secretario</p>
@@ -140,14 +140,14 @@
           </div>
         </div>
         <!-- Tesorero -->
-        <div class="col-6">
+        <div class="col-6" id="mesa-cards">
           <div class="card">
             <div class="card-body puestos">
               <p class="guindo card-text text-center">Tesorero</p>
             </div>
             <img class="imagen-mesa" src="assets/images/logo-cerebro.png" alt="foto presidente">
             <div class="card-body" id="nombres">
-              <p class="gris card-text text-center">Alejandro Alberto Ramirez Vilchis</p>
+              <p class="gris card-text text-center" id="nombre-vilchis">Alejandro Alberto Ramirez Vilchis</p>
             </div>
           </div>
         </div>
@@ -174,5 +174,6 @@
     <script src="assets/js/jquery-3.4.1.js"></script>
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/querys.js"></script>
   </body>
 </html>

@@ -80,7 +80,14 @@ body, html{
 }
 
 .lista{
-	list-style: initial;
+	list-style: none;
+	padding-left: 0px;
+}
+
+#lista-representa{
+	padding-left: 0px;
+    padding-right: 0px;
+    text-align: -webkit-center;
 }
 
 .footer{
@@ -123,6 +130,23 @@ body, html{
 	.gris{
 		font-size: 2em;
 	}
+
+	#representa{
+		font-size: 1.2em;
+	}
+
+	#nombres{
+		font-size: 90%;
+	}
+
+	#nombre-vilchis{
+		font-size: 1.97em;
+	}
+
+	#logo-footer{
+		width: 45%;
+	}
+
 }
 
 
