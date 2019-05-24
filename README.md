@@ -7,17 +7,31 @@
 + Se agrega la sección donde se muestran los miembros de la mesa directiva.
 + Se agrega la sección del footer.
 
+**Metas**
+
++ Se agregaron los titulos de las metas y las listas con iconos.
+
+**Noticias**
+
++ Se agrega la descripción de la página.
++ Se agregaron dos carouseles, para los eventos de "Talent Land 2019" y el "XVII Foro de producción limpia".
+
 **CSS**
 
 + Se añade el css de bootstrap 4.
 + Se definen los principales breakpoints para el css.
 + Se definen los colores base de la página.
++ Se definen tamaños de letras para los colores (titulos, subtitulos y parrafos).
 
 **Js**
 
 + Se agregan los .js necesarios para JQuery y Bootstrap 4.
++ Se agregon un js para modificar las columnas de algunos div para las mediaqueries.
 
 **Imagenes**
 
 + Se añade el logo sin el nombre del capítulo (cerebro).
 + Se añaden las imagenes del footer (logos del TecNM, ITS y SEP).
++ Se añadieron las imagenes de misión y visión.
++ Se añadieron las imagenes de lo íconos de las metas.
++ Se añadieron las imagenes para los carouseles.
