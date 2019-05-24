@@ -1,96 +1,131 @@
-body,
-html {
-  font-family: "Roboto", sans-serif;
-  height: 100%;
-  margin: 0;
-  width: 100%;
+body, html{
+	font-family: 'Roboto', sans-serif;
+	height: 100%;
+	margin: 0;
+	width: 100%;
 }
 
-.gris {
-  color: #444444;
+.tam-letra{
+	font-size: 1.5em;
 }
 
-.guindo {
-  color: #87181f;
+.tam-letra-1{
+	font-size: 1.2em;
 }
 
-.cyan {
-  color: #00adf7;
+.tam-titulos{
+	font-size: 2em;
 }
 
-.blanco {
-  color: #fff;
+.gris{
+	color: #444444;
 }
 
-.azul {
-  color: #1793f3;
+.guindo{
+	color: #87181f;
 }
 
-#nav-principal {
-  padding-left: 0;
-  padding-right: 0;
+.cyan{
+	color: #00adf7;
 }
 
-#logo {
-  width: 100%;
-  height: 100%;
+.blanco{
+	color: #fff;
 }
 
-.titulo {
-  margin: 0;
+.azul{
+	color: #1793f3;
 }
 
-#titulo {
-  font-size: 1em;
+#nav-principal{
+	padding-left: 0;
+	padding-right: 0;
 }
 
-#mision {
-  background-color: #fff;
+#logo{
+	width: 100%;
+	height: 100%;
 }
 
-.imagen-mesa {
-  width: 90%;
+.titulo{
+	margin: 0;
 }
 
-#mesa-directiva {
+#titulo{
+	font-size: 1em;
 }
 
-#puestos {
-  padding: 1rem;
+#mision{
+	background-color: #fff;
 }
 
-#vicepresidente {
-  padding: 1rem 0rem 1.5rem 0rem;
+.imagen-mesa{
+	width: 90%;
 }
 
-#nombres {
-  padding: 0;
+#mesa-directiva{
+
 }
 
-.lista {
-  list-style: initial;
+#puestos{
+	padding: 1rem;
 }
 
-.footer {
-  margin-top: 1rem;
+#vicepresidente{
+	padding: 1rem 0rem 1.5rem 0rem;
 }
 
-#logo-footer {
-  width: 100%;
-  height: 100%;
+#nombres{
+	padding: 0;
+}
+
+.lista{
+	list-style: initial;
+}
+
+.footer{
+    margin-top: 1rem;
+}
+
+#logo-footer{
+	width: 100%;
+	height: 100%;
 }
 
 @media (min-width: 576px) {
+	
 }
 
-/* Medium devices (tablets, 768px and up) */
+
 @media (min-width: 768px) {
+
 }
 
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
+
+@media screen and (min-width: 992px) {
+
+	#titulo{
+		font-size: 2em;
+	}
+
+	.tam-letra{
+		font-size: 2em;
+	}
+
+	.tam-letra-1{
+		font-size: 2em;
+	}	
+
+	.guindo{
+		font-size: 2em;
+	}
+
+	.gris{
+		font-size: 2em;
+	}
 }
 
-/* Extra large devices (large desktops, 1200px and up) */
+
 @media (min-width: 1200px) {
+
 }
