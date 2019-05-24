@@ -35,3 +35,11 @@
 + Se añadieron las imagenes de misión y visión.
 + Se añadieron las imagenes de lo íconos de las metas.
 + Se añadieron las imagenes para los carouseles.
+
+## Lista de avances:
+
++ Las imagenes del carousel del foro.
++ Las fotos del resto de la mesa directiva.
++ Buscar en dónde poner y agregar el código de conducta del capítulo.
++ Hacer cambios en el navbar para que no se vea como en móviles en resoulciones mayores como las de laptop.
++ Buscar mejoras en las mediaqueries.
