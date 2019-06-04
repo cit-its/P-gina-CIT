@@ -14,7 +14,7 @@
 **Noticias**
 
 + Se agrega la descripción de la página.
-+ Se agregaron dos carouseles, para los eventos de "Talent Land 2019" y el "XVII Foro de producción limpia".
++ Se agregaron dos carouseles, para los eventos de "Talent Land 2019", el "XVII Foro de producción limpia" y la "Toma de protesta".
 
 **CSS**
 
@@ -38,10 +38,9 @@
 
 ## Lista de pedientes:
 
-+ Las imagenes del carousel del foro de producción limpia.
-+ Las fotos del resto de la mesa directiva.
++ Las fotos del resto de la mesa directiva (faltan 2).
 + Buscar en dónde poner y agregar el código de conducta del capítulo.
 + Hacer cambios en el navbar para que no se vea como en móviles en resoluciones mayores como las de laptop.
 + Buscar mejoras en las mediaqueries.
-+ Agregar en NOTICIAS las fotos de la inauguración del capítulo y del curso de Big DATA & IoT.
++ Agregar en NOTICIAS el curso de Big DATA & IoT.
 
