@@ -36,10 +36,12 @@
 + Se añadieron las imagenes de lo íconos de las metas.
 + Se añadieron las imagenes para los carouseles.
 
-## Lista de avances:
+## Lista de pedientes:
 
-+ Las imagenes del carousel del foro.
++ Las imagenes del carousel del foro de producción limpia.
 + Las fotos del resto de la mesa directiva.
 + Buscar en dónde poner y agregar el código de conducta del capítulo.
-+ Hacer cambios en el navbar para que no se vea como en móviles en resoulciones mayores como las de laptop.
++ Hacer cambios en el navbar para que no se vea como en móviles en resoluciones mayores como las de laptop.
 + Buscar mejoras en las mediaqueries.
++ Agregar en NOTICIAS las fotos de la inauguración del capítulo y del curso de Big DATA & IoT.
+
