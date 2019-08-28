@@ -1,182 +1,263 @@
 <!doctype html>
 <html lang="es">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/index.css">
-    <style>
-      @import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
-    </style>
 
-    <title>CIT | Home</title>
-  </head>
-  <body>
-    <div class="container-fluid" id="nav-principal">
-      <!--Collapsable content -->
-      <div class="pos-f-t" style="background-color: #fff;">
-      <div class="collapse" id="navbarToggleExternalContent">
-        <ul class="nav">
-          <li class="nav-item">
-            <a class="nav-link active" href="#ancla-Inicio">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#ancla-Nosotros">Nosotros</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="metas.html">Metas</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="noticias.html">Noticias</a>
-          </li>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/index.css">
+  <script src="https://kit.fontawesome.com/e721e51442.js"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+  </style>
+
+  <title>CIT | Home</title>
+</head>
+
+<body>
+  <!-- Navbar - responsive menu -->
+  <nav class="navbar navbar-expand-lg navbar-light py-3">
+    <div class="container"><a href="#" class="navbar-brand d-flex align-items-center"><img class="mr-3"
+          src="assets/images/logo-cerebro.png" alt="logo CIT" />
+        <div>
+          <p class="titulo gris">Capítulo de</p>
+          <p class="titulo guindo">Innovación Tecnológica</p>
+        </div>
+      </a>
+      <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+        class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
+      <div id="navbarSupportedContent" class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active subtitulo gris"><a href="#ancla-inicio" class="nav-link">Inicio</a></li>
+          <li class="nav-item active gris"><a href="#ancla-nosotros" class="nav-link">Nosotros</a></li>
+          <li class="nav-item active gris"><a href="metas.html" class="nav-link">Metas</a></li>
+          <li class="nav-item active gris"><a href="noticias.html" class="nav-link">Noticias</a></li>
         </ul>
       </div>
-      <!--Collapsable navbar -->
-      <!--Logo del cerbero -->
-      <nav class="navbar navbar-light" style="background-color: #fff;">
-        <div class="col-4 align-self-center justify-content-center">
-          <img id="logo" src="assets/images/logo-cerebro.png" class="img-fluid" alt="logo">
-        </div>
-        <!--Titulo -->
-        <div class="col-5 tam-letra-1">
-          <p class="titulo gris text-left" id="titulo">Capítulo de</p>
-          <p class="titulo guindo text-left" id="titulo">Innovación Tecnológica</p>
-        </div>
-        <!--Collapsable navbar -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation" id="boton-menu">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </nav>
     </div>
+  </nav>
 
-    <!--Presentación -->
-    <div class="jumbotron" id="seccion-contacto">
-      <a name="ancla-Inicio"></a>
-      <h1 class="guindo display-3">Únete!</h1>
-      <p class="lead tam-letra">Somos un grupo multidiscplinario de estudiantes que comparte el interés de impulsar las nuevas tendencias.</p>
-      <hr class="my-2">
-      <p class="tam-letra">Envía tu CV ahora a</br>contacto@cit-its.org</p>
-      <p class="lead">
-        <a class="btn btn-primary btn-lg" role="button" value="Enviar un email" onclick="parent.location='mailto:contacto@cit-its.org'" style="color: #fff;">Enlace al correo</a>
-      </p>
-    </div>
+  <!--Presentación -->
+  <div class="jumbotron" id="seccion-contacto">
+    <a name="ancla-inicio"></a>
+    <h1 class="guindo display-3">Únete!</h1>
+    <p class="lead tam-letra">Somos un grupo multidiscplinario de estudiantes que comparte el interés de impulsar las
+      nuevas tendencias.</p>
+    <hr class="my-2">
+    <p class="tam-letra">Envía tu CV ahora a</br>contacto@cit-its.org</p>
+    <p class="lead">
+      <a class="btn btn-primary btn-lg" role="button" value="Enviar un email"
+        onclick="parent.location='mailto:contacto@cit-its.org'" style="color: #fff;">Enlace al correo</a>
+    </p>
+  </div>
 
-    <!--Sección de Misión, Visión y Valores -->
-    <div class="container-fluid" id="mision">
-      <a name="ancla-Nosotros"></a>
+  <!--Sección de Misión, Visión y Valores -->
+  <section class="services pt-100 pb-50">
+    <a name="ancla-mision"></a>
+    <div class="container">
       <div class="row">
-        <div class="col-12" id="contenedor-nosotros">
-          <img id="fondo-mision" src="assets/images/fondo-mision.jpeg" class="img-fluid" alt="mision">
-          <p class="azul text-center tam-titulos">Misión</p>
-          <p class="gris text-center tam-letra" id="contenido-nosotros">
-            Ser un grupo de estudiantes multidisciplinario que impulse la aplicación de las nuevas tendencias tecnológicas en el sector público y privado, representando con orgullo al Instituto Tecnológico de Saltillo.
-          </p>
-        </div>
-        <div class="col-12" id="contenedor-nosotros">
-          <img id="fondo-mision" src="assets/images/fondo-vision.jpg" class="img-fluid" alt="vision">
-          <p class="azul text-center tam-titulos">Visión</p>
-          <p class="gris text-center tam-letra" id="contenido-nosotros">
-             Ser reconocidos como el grupo estudiantil modelo para la incursión de las nuevas tecnologías y promoverlas dentro de nuestra comunidad, en sinergia con el “HUB Innovación  Coahuila 4.0”.
-          </p>
+        <div class="col-xl-6 mx-auto text-center">
+          <div class="section-title mb-100">
+            <h4>Nosotros</h4>
+          </div>
         </div>
       </div>
-      <div class="row align-items-center">
-        <div class="col-12">
-          <p class="azul text-center tam-titulos">¿Qué nos representa?</p>
+      <div class="row  justify-content-center">
+        <div class="col-lg-4 col-md-6">
+          <!-- Mision -->
+          <div class="single-service cards-incio">
+            <i class="fa fa-flag cyan"></i>
+            <h4 class="guindo">Misión</h4>
+            <p class="gris">
+              Ser un grupo de estudiantes multidisciplinario que impulse la aplicación de las nuevas tendencias
+              tecnológicas en el sector público y privado, representando con orgullo al Instituto Tecnológico de
+              Saltillo.</p>
+          </div>
         </div>
-        <div class="col-6 tam-letra-1" id="nosrepresenta">
-          <ol class="gris lista" id="lista-laptop">
-            <li>Humildad</li>
-            <li>Pasión</li>
-            <li>Comunicación</li>
-            <li>Liderazgo</li>
-          </ol>
+        <div class="col-lg-4 col-md-6">
+          <!-- Vision -->
+          <div class="single-service cards-incio">
+            <i class="fa fa-eye cyan"></i>
+            <h4 class="guindo">Visión</h4>
+            <p class="gris">Ser reconocidos como el grupo estudiantil modelo para la incursión de las nuevas tecnologías
+              y promoverlas
+              dentro de nuestra comunidad, en sinergia con el “HUB Innovación Coahuila 4.0”.</p>
+          </div>
         </div>
-        <div class="col-6 tam-letra-1" id="nosrepresenta">
-          <ol class="gris lista" id="lista-laptop">
-            <li>Respeto</li>
-            <li>Compromiso</li>
-            <li>Identidad</li>
-          </ol>
+        <div class="col-lg-4 col-md-6">
+          <!-- Valores -->
+          <div class="single-service cards-incio">
+            <i class="fa fa-users cyan"></i>
+            <h4 class="guindo">¿Qué nos representa?</h4>
+            <div class="row">
+              <div class="col-6">
+                <ol class="gris lista">
+                  <li>Humildad</li>
+                  <li>Pasión</li>
+                  <li>Comunicación</li>
+                  <li>Liderazgo</li>
+                </ol>
+              </div>
+              <div class="col-6">
+                <ol class="gris lista">
+                  <li>Respeto</li>
+                  <li>Compromiso</li>
+                  <li>Identidad</li>
+                </ol>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+  </section>
+
+  <div class="bg-light py-5">
+    <a name="ancla-nosotros"></a>
+    <div class="container py-5">
+      <div class="row mb-4">
+        <div class="col-lg-5">
+          <h2 class="display-4 font-weight-light">Mesa directiva</h2>
+        </div>
+      </div>
+
+      <div class="row text-center">
+        <!-- Team item-->
+        <div class="col-xl-3 col-sm-6 mb-5">
+          <div class="bg-white rounded shadow-sm py-5 px-4"><img
+              src="https://res.cloudinary.com/mhmd/image/upload/v1556834133/avatar-2_f8dowd.png" alt="" width="100"
+              class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+            <h5 class="mb-0 gris">David Magallán</h5><span class="small text-uppercase text-muted guindo">Presidente - Fundador</span>
+            <ul class="social mb-0 list-inline mt-3">
+              <li class="list-inline-item"><a href="https://www.linkedin.com/in/david-magall%C3%A1n-515865180/" class="social-link"><i class="fab fa-linkedin-in"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- End-->
+
+        <!-- Team item-->
+        <div class="col-xl-3 col-sm-6 mb-5">
+          <div class="bg-white rounded shadow-sm py-5 px-4"><img
+              src="https://res.cloudinary.com/mhmd/image/upload/v1556834133/avatar-2_f8dowd.png" alt="" width="100"
+              class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+            <h5 class="mb-0 gris">David López</h5><span class="small text-uppercase text-muted guindo">Vicepresidente - Fundador</span>
+            <ul class="social mb-0 list-inline mt-3">
+              <li class="list-inline-item"><a href="https://www.linkedin.com/in/luis-david-l%C3%B3pez-valdes-b61451153/" class="social-link"><i class="fab fa-linkedin-in"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- End-->
+
+        <!-- Team item-->
+        <div class="col-xl-3 col-sm-6 mb-5">
+          <div class="bg-white rounded shadow-sm py-5 px-4"><img
+              src="https://res.cloudinary.com/mhmd/image/upload/v1556834133/avatar-2_f8dowd.png" alt="" width="100"
+              class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+            <h5 class="mb-0 gris">Fernando Pinedo</h5><span class="small text-uppercase text-muted guindo">Secretario - Fundador</span>
+            <ul class="social mb-0 list-inline mt-3">
+              <li class="list-inline-item"><a href="https://www.linkedin.com/in/fernando-josue-pinedo-a85398128/" class="social-link"><i class="fab fa-linkedin-in"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- End-->
+
+        <!-- Team item-->
+        <div class="col-xl-3 col-sm-6 mb-5">
+          <div class="bg-white rounded shadow-sm py-5 px-4"><img
+              src="https://res.cloudinary.com/mhmd/image/upload/v1556834133/avatar-2_f8dowd.png" alt="" width="100"
+              class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+            <h5 class="mb-0 gris">Alejandro Vilchis</h5><span class="small text-uppercase text-muted guindo">Tesorero - Fundador</span>
+            <ul class="social mb-0 list-inline mt-3"> 
+              <li class="list-inline-item"><a href="https://www.linkedin.com/in/alexvilchis/" class="social-link"><i class="fab fa-linkedin-in"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- End-->
+
       </div>
     </div>
+  </div>
 
-    <div class="container-fluid">
-      <div class="row" id="mesa-directiva">
-        <!-- Presidente -->
-        <div class="col-6" id="mesa-cards">
-          <div class="card">
-            <div class="card-body puestos">
-              <p class="guindo card-text text-center">Presidente</p>
-            </div>
-            <img class="imagen-mesa" src="assets/images/logo-cerebro.png" alt="foto presidente">
-            <div class="card-body" id="nombres">
-              <p class="gris card-text text-center">David Magallan Jimenez</p>
+  <!-- Footer -->
+  <footer class="page-footer font-small mdb-color pt-4">
+      <!-- Footer Links -->
+      <div class="container text-center text-md-left">
+        <!-- Footer links -->
+        <div class="row text-center text-md-left mt-3 pb-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">
+              Instituto Tecnológico de Saltillo
+            </h6>
+            <p>Blvd. Venustiano Carranza #2400, Colonia Tecnológico</p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <hr class="w-100 clearfix d-md-none" />
+  
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Contacto</h6>
+            <p><i class="fas fa-home mr-3"></i> Saltillo, Coah. 25280, México</p>
+            <p>
+              <a role="button"  value="Enviar un email" onclick="parent.location='mailto:contacto@cit-its.org'">
+                <i class="fas fa-envelope mr-3"></i>contacto@cit-its.org
+              </a>
+            </p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Footer links -->
+  
+        <hr />
+  
+        <!-- Grid row -->
+        <div class="row d-flex align-items-center">
+          <!-- Grid column -->
+          <div class="col-md-7 col-lg-8">
+            <!--Copyright-->
+            <p class="text-center text-md-left">
+              © 2019 Copyright:
+              <a href="https://cit-its.org">
+                <strong>cit-its.org</strong>
+              </a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-5 col-lg-4 ml-lg-0">
+            <!-- Social buttons -->
+            <div class="text-center text-md-right">
+              <ul class="list-unstyled list-inline">
+                <li class="list-inline-item">
+                  <a href="https://www.facebook.com/citITS/" class="btn-floating btn-sm rgba-white-slight mx-1">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
+          <!-- Grid column -->
         </div>
-        <!-- Vicepresidente -->
-        <div class="col-6" id="mesa-cards">
-          <div class="card">
-            <div class="card-body puestos" id="vicepresidente">
-              <p class="guindo card-text text-center">Vicepresidente</p>
-            </div>
-            <img class="imagen-mesa" src="assets/images/vicepresidente.jpg" alt="foto presidente">
-            <div class="card-body" id="nombres">
-              <p class="gris card-text text-center">Luis David López Valdes</p>
-            </div>
-          </div>
-        </div>
-        <!-- Secretario -->
-        <div class="col-6" id="mesa-cards">
-          <div class="card">
-            <div class="card-body puestos">
-              <p class="guindo card-text text-center">Secretario</p>
-            </div>
-            <img class="imagen-mesa" src="assets/images/secretario.png" alt="foto presidente">
-            <div class="card-body" id="nombres">
-              <p class="gris card-text text-center">Fernando Josue Pinedo Orta</p>
-            </div>
-          </div>
-        </div>
-        <!-- Tesorero -->
-        <div class="col-6" id="mesa-cards">
-          <div class="card">
-            <div class="card-body puestos">
-              <p class="guindo card-text text-center">Tesorero</p>
-            </div>
-            <img class="imagen-mesa" src="assets/images/logo-cerebro.png" alt="foto presidente">
-            <div class="card-body" id="nombres">
-              <p class="gris card-text text-center" id="nombre-vilchis">Alejandro Alberto Ramirez Vilchis</p>
-            </div>
-          </div>
-        </div>
+        <!-- Grid row -->
       </div>
-    </div>
-
+      <!-- Footer Links -->
+    </footer>
     <!-- Footer -->
-    <div class="container-fluid footer">
-      <div class="row">
-        <div class="col align-self-center justify-content-center">
-          <img id="logo-footer" src="assets/images/Logo-TecNM.png" class="img-fluid" alt="logo">
-        </div>
-        <div class="col align-self-center justify-content-center">
-          <img id="logo-footer" src="assets/images/Logo-ITS.png" class="img-fluid" alt="logo">
-        </div>
-        <div class="col align-self-center justify-content-center">
-          <img id="logo-footer" src="assets/images/Logo-SEP.png" class="img-fluid" alt="logo">
-        </div>
-      </div>
-    </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="assets/js/jquery-3.4.1.js"></script>
-    <script src="assets/js/popper.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/querys.js"></script>
-  </body>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+</body>
+
 </html>
